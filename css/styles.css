@@ -8,6 +8,9 @@
 /*              Variables                        */
 /* ============================================= */
 /* ============================================= */
+/*              Mixins                        */
+/* ============================================= */
+/* ============================================= */
 /* Base Imports */
 /* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -413,21 +416,41 @@ a {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background-color: #9cecfd;
+  transition: background-color 300ms;
+}
 
 .error {
   background-color: #e4757a;
+}
+.error:hover {
+  background-color: #f1b5b8;
+  transition: background-color 300ms;
 }
 
 .info {
   background-color: #927bc1;
 }
+.info:hover {
+  background-color: #bdafd9;
+  transition: background-color 300ms;
+}
 
 .success {
   background-color: #63cc82;
 }
+.success:hover {
+  background-color: #9ddfb0;
+  transition: background-color 300ms;
+}
 
 .warning {
   background-color: #fd7856;
+}
+.warning:hover {
+  background-color: #feb4a2;
+  transition: background-color 300ms;
 }
 
 /* ============================================= */
@@ -464,7 +487,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -473,7 +495,6 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
