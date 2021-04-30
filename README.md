@@ -1,2 +1,12 @@
 # Web-Style-Guide-FEWD-proj-4
- Web style guide project for Threehouse FEWD Techdegree
+Project 4 - Front End Developer Techdegree from Treehouse
+
+
+### Description:
+Style guide created by converting existing CSS into Sass partials.
+
+
+### Technologies used:
+- HTML
+- CSS
+- Sass
