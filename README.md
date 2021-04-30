@@ -1,4 +1,4 @@
-# Web-Style-Guide-FEWD-proj-4
+# Web Style Guide
 Project 4 - Front End Developer Techdegree from Treehouse
 
 
